@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "eslint-config-airbnb-base",
+    "plugin:flowtype/recommended",
+    "./index.js"
+  ],
+  "globals": {
+    "describe": true,
+    "expect": true,
+    "test": true
+  }
+}
