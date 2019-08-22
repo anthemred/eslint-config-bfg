@@ -8,5 +8,16 @@
     "describe": true,
     "expect": true,
     "test": true
+  },
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": "off",
+    "flowtype/require-parameter-type": [
+      "error",
+      "always"
+    ],
+    "flowtype/space-before-type-colon": [
+      "error",
+      "always"
+    ]
   }
 }
