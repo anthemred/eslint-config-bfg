@@ -9,12 +9,10 @@
     "expect": true,
     "test": true
   },
+  "parser": "babel-eslint",
   "rules": {
     "flowtype/no-types-missing-file-annotation": "off",
-    "flowtype/require-parameter-type": [
-      "error",
-      "always"
-    ],
+    "flowtype/require-parameter-type": "error",
     "flowtype/space-before-type-colon": [
       "error",
       "always"
