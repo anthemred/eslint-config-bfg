@@ -13,7 +13,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 Install the correct versions of each package, which are listed by the command:
 
 ```
-$ npm install-peerdeps --dev eslint-config-airbnb-base
+npm install-peerdeps --dev eslint-config-airbnb-base
 ```
 
 Add `"extends": "bfg"` to your .eslintrc.

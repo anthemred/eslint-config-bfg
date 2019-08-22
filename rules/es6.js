@@ -145,7 +145,9 @@ module.exports = {
         'prefer-numeric-literals': 'error',
 
         // require rest parameters instead of arguments
-        'prefer-rest-params': 'error',
+        // TODO jm + eh: we're setting this as a warning right now because we will be re-factoring
+        //               the places where we are currenlty abusing this
+        'prefer-rest-params': 'warn',
 
         // require spread operators instead of .apply()
         'prefer-spread': 'error',
